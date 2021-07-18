@@ -16,7 +16,7 @@
 
 
 ## Web Scraping
-Tweaked the web scraper github repo (above) to scrape 1000 job postings from glassdoor.com. With each job, we got the following:
+Scraped 1000 job postings from glassdoor.com. With each job, we got the following:
 *	Job title
 *	Salary Estimate
 *	Job Description
@@ -33,7 +33,7 @@ Tweaked the web scraper github repo (above) to scrape 1000 job postings from gla
 *	Competitors 
 
 ## Data Cleaning
-After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+After scraping the data, we need to clean it up so that it is usable for model creation. I made the following changes and created the following variables:
 
 *	Parsed numeric data out of salary 
 *	Made columns for employer provided salary and hourly wages 
